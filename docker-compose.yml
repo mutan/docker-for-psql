@@ -1,0 +1,24 @@
+version: '3.7'
+
+networks:
+    psql-network:
+        name: psql-network
+
+services:
+
+    postgres:
+        container_name: postgres
+        build: ./docker/postgres/
+        image: postgres:home
+        restart: on-failure
+        volumes:
+            - ./docker/postgres:/home
+        environment:
+            - POSTGRES_PASSWORD=secret1S
+            - MOLINARO_DB_NAME=molinaro
+            - MOLINARO_USER_NAME=molinaro
+            - MOLINARO_USER_PASSWORD=secret1S
+        ports:
+            - "5001:5432"
+        networks:
+            - psql-network

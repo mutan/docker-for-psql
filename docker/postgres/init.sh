@@ -11,4 +11,6 @@ psql -v ON_ERROR_STOP=1 --username "$POSTGRES_USER" --dbname "$POSTGRES_DB" <<-E
     GRANT ALL PRIVILEGES ON DATABASE $MOLINARO_DB_NAME TO $MOLINARO_USER_NAME;
 EOSQL
 
+# PostgreSQL database dump for book:
+# SQL Cookbook. Anthony Molinaro. 2009
 psql molinaro < /docker-entrypoint-initdb.d/molinaro.sql

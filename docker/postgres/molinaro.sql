@@ -1,3 +1,6 @@
+-- PostgreSQL database dump for book:
+-- SQL Cookbook. Anthony Molinaro. 2009
+
 --
 -- Employee table
 --

@@ -38,7 +38,7 @@ Now practice! Run `psql` inside docker container.
 docker-compose exec postgres psql -U postgres
 ```
 
-Don't forget to stop containers at the and of work.
+Don't forget to stop containers at the end of work.
 ```bash
 docker-compose down
 ```

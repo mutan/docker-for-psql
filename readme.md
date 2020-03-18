@@ -3,7 +3,7 @@ Learn SQL / PostgreSQL from some great (in my opinion) books:
 1. SQL Cookbook. Anthony Molinaro. 2009  
 (database and user name: `molinaro`)
 
-This repository provides to you:
+This repository provides you with:
 * `psql` command line tool (from docker container)  
 * databases filled with appropriate data for every book  
 

@@ -12,7 +12,7 @@ Read the books for theory. Then test every piece of code or any of your own idea
 
 ##### Copyright notice
 
-As far as I know, the books themselves are not freely distributed. Use Google or whatever to find and purchase a legal copy.
+As far as I know, the books are not freely distributed. Use Google or whatever to find and purchase a legal copy.
 
 ### Prerequisites
 

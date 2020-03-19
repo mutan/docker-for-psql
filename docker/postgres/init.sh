@@ -18,7 +18,7 @@ psql molinaro < /docker-entrypoint-initdb.d/molinaro.sql
 # INTROBOOK
 # Database dump for book: "Postgres: первое знакомство""
 # https://edu.postgrespro.ru/introbook_v6.pdf
-mkdir ~/downloads
-wget -P ~/downloads/ --no-check-certificate https://edu.postgrespro.ru/"$INTROBOOK_DB".zip
-zcat ~/downloads/"$INTROBOOK_DB".zip | psql --username "$POSTGRES_USER"
-rm ~/downloads/"$INTROBOOK_DB".zip
+# mkdir ~/downloads
+# wget -P ~/downloads/ --no-check-certificate https://edu.postgrespro.ru/"$INTROBOOK_DB".zip
+zcat /downloads/"$INTROBOOK_DB".zip | psql --username "$POSTGRES_USER"
+rm /downloads/"$INTROBOOK_DB".zip

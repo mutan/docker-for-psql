@@ -1,4 +1,12 @@
-Learn SQL / PostgreSQL from some great (in my opinion) books:  
+Learn SQL / PostgreSQL from some great (in my opinion) books!  
+
+This repository gives you:
+* `psql` command line tool (from docker container)  
+* databases filled with appropriate data for every book  
+
+Read the books for theory. Then test every piece of code or any of your own ideas in practice.  
+
+### Books
 
 1. SQL Cookbook. Anthony Molinaro. 2009  
 (database and user name: `molinaro`)
@@ -7,11 +15,7 @@ Learn SQL / PostgreSQL from some great (in my opinion) books:
 [Download for free](https://postgrespro.ru/education/books/introbook)  
 (database: `demo`)
 
-This repository gives you:
-* `psql` command line tool (from docker container)  
-* databases filled with appropriate data for every book  
 
-Read the books for theory. Then test every piece of code or any of your own ideas in practice.  
 
 
 ##### Copyright notice

@@ -15,9 +15,6 @@ Read the books for theory. Then test every piece of code or any of your own idea
 [Download for free](https://postgrespro.ru/education/books/introbook)  
 (database: `demo`)
 
-
-
-
 ##### Copyright notice
 
 As far as I know, some books are not freely distributed. Use Google or whatever to find and purchase a legal copy.

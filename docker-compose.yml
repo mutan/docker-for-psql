@@ -9,7 +9,7 @@ services:
     postgres:
         container_name: postgres
         build: ./docker/postgres/
-        image: postgres:home
+        image: postgres:learn
         restart: on-failure
         volumes:
             - ./docker/postgres:/home
